@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+    .list-container {
+      text-align: center;
+      display: inline-block;
+    }
+
+        .container {
+            display: flex;
+        }
+
+        .sidenav {
+            height: 100vh;
+            width: 80px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            overflow-x: hidden;
+            padding-top: 20px;
+            transition: width 0.3s;
+        }
+
+        .sidenav:hover {
+            width: 200px;
+        }
+
+        .sidenav a {
+            display: none;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin-bottom: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .sidenav:hover a {
+            display: block;
+        }
+
+        .sidenav a:hover {
+            background-color: #555;
+        }
+
+        .content {
+            margin-left:200px;
+            padding: 20px;
+        }
+
+        .heading {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .paragraph {
+            font-size: 16px;
+        }
+
+        /* Unique colors for each button */
+        .sidenav a:nth-child(1) {
+            background-color: #ff0000;
+        }
+
+        .sidenav a:nth-child(2) {
+            background-color: #00ff00;
+        }
+
+        .sidenav a:nth-child(3) {
+            background-color: #0000ff;
+        }
+
+        .sidenav a:nth-child(4) {
+            background-color: #ff00ff;
+        }
+
+        .sidenav a:nth-child(5) {
+            background-color: #ffff00;
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-decoration: underline; color: violet;">CSS TASK-7</h1>
+
+  <div class="list-container">
+    <div class="container">
+        <div class="sidenav">
+            <a href="https://en.wikipedia.org/wiki/Template:Navbar">Button 1</a>
+            <a href="https://en.wikipedia.org/wiki/Template:Navbar">Button 2</a>
+            <a href="https://en.wikipedia.org/wiki/Template:Navbar">Button 3</a>
+            <a href="https://en.wikipedia.org/wiki/Template:Navbar">Button 4</a>
+            <a href="https://en.wikipedia.org/wiki/Template:Navbar">Button 5</a>
+        </div>
+        <div class="content">
+            <h1 class="heading">Hovarable SideNav Buttons</h1>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec mi feugiat, tincidunt nunc et, tempor nisi. Phasellus vitae urna quis enim suscipit dapibus sed sed nisi.</p>
+        </div>
+    </div>
+     </div>
+</body>
+</html>
